@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  
+    <category>
+        <pattern>*</pattern>
+        <template><delay>1</delay>I'm sorry, I didn't quite catch that. Please try saying "My name is ___ ".</template>
+    </category>
+    
+    <category>
+        <pattern>HELLO</pattern>
+        <template><delay>1</delay>Hi! My name is ChatBot 3000. What is your name? (My name is ___ )</template>
+    </category>
+    
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template><delay>4</delay>Hello <set name = "username"><star /></set>. Would you like to find a career that fits you and your interests? (Yes or No)</template>
+    </category>
+    
+    <category>
+        <pattern>NO</pattern>
+        <template><delay>1</delay>No worries!  If you change your mind, just say "Hello".</template>
+    </category>
+    
+    <category>
+        <pattern>YES</pattern>
+        <template><delay>1</delay>Awesome! I am going to ask you a few questions to help narrow down your options.<delay>1</delay>Would you describe yourself as more creative or analytical?
+            <button>
+                <text>Creative</text>
+                <postback>CREATIVE</postback>
+            </button>
+            <button>
+                <text>Analytical</text>
+                <postback>ANALYTICAL</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>TRY AGAIN</pattern>
+        <template><delay>1</delay>Let's try this again.<delay>1</delay>Would you describe yourself as more creative or analytical?
+            <button>
+                <text>Creative</text>
+                <postback>CREATIVE</postback>
+            </button>
+            <button>
+                <text>Analytical</text>
+                <postback>ANALYTICAL</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CREATIVE</pattern>
+        <template>
+            <delay>1</delay>Great! Do you enjoy programming?
+            <button>
+                <text>Yes</text>
+                <postback>CREATIVEPRO</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>CREATIVENOPRO</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CREATIVEPRO</pattern>
+        <template>
+            <delay>1</delay>Awesome! Do you enjoy working with other people?
+            <button>
+                <text>Yes</text>
+                <postback>SWE</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>DBADMIN</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CREATIVENOPRO</pattern>
+        <template>
+            <delay>1</delay>Awesome! Do you enjoy working with other people?
+            <button>
+                <text>Yes</text>
+                <postback>SYSAN</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>SYSAN</postback>
+            </button>
+        </template>
+    </category>
+    
+    /////
+    
+    <category>
+        <pattern>ANALYTICAL</pattern>
+        <template>
+            <delay>1</delay>Great! Do you enjoy programming?
+            <button>
+                <text>Yes</text>
+                <postback>ANPRO</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>ANNOPRO</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ANPRO</pattern>
+        <template>
+            <delay>1</delay>Awesome! Do you enjoy working with other people?
+            <button>
+                <text>Yes</text>
+                <postback>DATASCI</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>DATASCI</postback>
+            </button>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ANNOPRO</pattern>
+        <template>
+            <delay>1</delay>Awesome! Do you enjoy working with other people?
+            <button>
+                <text>Yes</text>
+                <postback>ITSS</postback>
+            </button>
+            <button>
+                <text>No</text>
+                <postback>CYBSECAN</postback>
+            </button>
+        </template>
+    </category>
+    
+    
+  
+</aiml>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+	    <pattern>SWE</pattern>
+	    <template>
+	        <delay>3</delay>You might want to consider: <br/><br/>Software Engineer<br/><br/>
+	        Software Engineers create web applications, mobile apps, robots, operating systems, and network systems. They develop software solutions that meet their companies' needs.
+	        <br/><br/>Median salary: $120,000<br/><br/>
+	        (To restart or try again, please say "Try again")
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DATASCI</pattern>
+        <template>
+	        <delay>3</delay>You might want to consider: <br/><br/>Data Scientist<br/><br/>
+	        Data scientists analyze and interpret complex data to derive insights and make data-driven decisions. 
+	        <br/><br/>Median salary: $90,000 - $120,000<br/><br/>
+	        (To restart or try again, please say "Try again")
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CYBSECAN</pattern>
+        <template>
+	        <delay>3</delay>You might want to consider: <br/><br/>Cybersecurity Analyst<br/><br/>
+	        Cybersecurity analysts protect computer systems and networks from security breaches and threats.
+	        <br/><br/>Median salary: $80,000 - $110,000<br/><br/>
+	        (To restart or try again, please say "Try again")
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ITSS</pattern>
+        <template>
+	        <delay>3</delay>You might want to consider: <br/><br/>IT Support Specialist<br/><br/>
+	        IT support specialists provide technical assistance, troubleshoot issues, and resolve computer hardware and software problems for users.
+	        <br/><br/>Median salary: $55,000<br/><br/>
+	        (To restart or try again, please say "Try again")
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DBADMIN</pattern>
+        <template>
+	        <delay>3</delay>You might want to consider: <br/><br/>Database Administrator<br/><br/>
+	        Database administrators design, implement, and maintain an organization's databases, ensuring data integrity, security, and performance.
+	        <br/><br/>Median salary: $90,000<br/><br/>
+	        (To restart or try again, please say "Try again")
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SYSAN</pattern>
+        <template>
+	        <delay>3</delay>You might want to consider: <br/><br/>Systems Analyst<br/><br/>
+	        Systems analysts evaluate an organization's computer systems and processes, analyze requirements, and propose technology solutions to improve efficiency and effectiveness.
+	        <br/><br/>Median salary: $80,000<br/><br/>
+	        (To restart or try again, please say "Try again")
+        </template>
+    </category>
+    
+    
+    
+
+</aiml>

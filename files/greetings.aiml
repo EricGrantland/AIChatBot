@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+
+    <category>
+        <pattern>HEY</pattern>
+        <template><delay>1</delay>Hi! My name is ChatBot 3000. What is your name? (My name is ___ )</template>
+    </category>
+    
+    <category>
+        <pattern>HELLO THERE</pattern>
+        <template><delay>1</delay>Hi! My name is ChatBot 3000. What is your name? (My name is ___ )</template>
+    </category>
+    
+    <category>
+        <pattern>HI</pattern>
+        <template><delay>1</delay>Hi! My name is ChatBot 3000. What is your name? (My name is ___ )</template>
+    </category>
+
+</aiml>
